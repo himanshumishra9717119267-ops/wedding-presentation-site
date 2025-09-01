@@ -4,12 +4,12 @@
     // Sample data (thumbs from Unsplash, video demo from samplelib)
     const sampleVideo = '/(1) Title.mp4';
     const thumbs = {
-      Haldi: '/DSC_4108.JPG',
-      Mehendi: '/DSC_3474.webp',
-      Sangeet: '/DSC_7682.webp',
-      Baraat: '/DSC_8401.webp',
-      Wedding: '/DSC_8401.webp',
-     Highlight : '/DSC_5354.JPG'
+      Haldi: '/DSC_4108.jPG',
+      Mehendi: '/DSC_3474.jpg',
+      Sangeet: '/DSC_7682.jpg',
+      Baraat: '/DSC_8401.jpg',
+      Wedding: '/DSC_5637.jpg',
+     Highlight : '/DSC_5354.jPG'
     };
 
     const data = [
@@ -196,5 +196,4 @@
 
     // Init
     renderFilters();
-    renderGrid();
   
