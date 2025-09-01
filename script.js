@@ -56,7 +56,7 @@
         const card = document.createElement('div'); card.className='card';
         card.innerHTML = `
           <div class="thumb">
-            <img src="${thumbs[d.event]}" alt="${d.event} thumbnail"/>
+            <img src="/wedding-presentation-site/${thumbs[d.event]}" alt="${d.event} thumbnail"/>
             <div class="play"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 5v14l11-7-11-7z" fill="#fff"/></svg> Play</div>
           </div>
           <div class="meta">
